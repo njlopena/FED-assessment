@@ -19,6 +19,20 @@ function appendData(data) {
 }
 
 
+const Item1 = 129;
+const Item2 = 59;
+const Item3 = 249;
+const Item4 = 79;
+const Item5 = 149;
+const Item6 = 279;
+const Item7 = 249;
+const Item8 = 249;
+const Item9 = 399;
+const Item10 = 10;
+const Item11 = 10;
+const Item12 = 25;
+
+
 
 
 
@@ -54,3 +68,12 @@ window.onclick = function(event) {
   }
 }
 
+function checkoutfunc() {
+  alert("Order processed. Thank you for Shopping with us!");
+}
+
+
+function addcart() {
+  var total = Item1;
+  return (total);
+}
