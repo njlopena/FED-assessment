@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Buy Headphones!</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&family=Staatliches&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<h1>Marshall.</h1>
+	<hr><hr> <br>
+
+
+<!-- START OF CAROUSEL -->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="image/img1.jpg" style="width:100%">
+  <div class="text">BUILD YOUR OWN WALL OF SOUND</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="image/img2.jpg" style="width:100%">
+  <div class="text">A MODERN CLASSIC RE-ENGINEERED</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="image/img3.jpg" style="width:100%">
+  <div class="text">LIFE IN STEREO</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<!-- END OF CAROUSEL -->
+
+<hr>
+<hr>
+<br><br>
+
+	<div>
+	<h2>Shop Now!</h2>
+	<h2>Superior Signature Sound</h2>
+	</div>
+<br><br>
+
+<!-- FLEXBOX -->
+
+<div class="container-1">
+	<div class="box-1">
+		<h4>Minor II</h4>
+		<p>$129</p>
+		<img src="image/minor.png" alt="Minor II Earphones" style="max-width: 150px; margin-left: 35px;"> <br>
+		<a class="button" href="" >Add to cart</a>
+	</div>
+	<div class="box-2">
+		<h4>Mode</h4>
+		<p>$59</p>
+		<img src="image/mode.png" alt="Mode Earphones"style="max-width: 150px; margin-left: 35px;"> <br>
+		<a class="button" href="" >Add to cart</a>
+	</div>
+	<div class="box-3">
+		<h4>Monitor Bluetooth</h4>
+		<p>$249</p>
+		<img src="image/monitor.png" alt="Monitor Bluetooth" style="max-width: 150px; margin-left: 35px;"> <br>
+		<a class="button" href="" >Add to cart</a>
+	</div>
+	<div class="box-4">
+		<h4>Major III</h4>
+		<p>$79</p>
+		<img src="image/major.png" alt="Major III" style="max-width: 150px; margin-left: 35px;"> <br>
+		<a class="button" href="" >Add to cart</a>
+	</div>
+	<div class="box-5">
+		<h4>Major III Bluetooth</h4>
+		<p>$149</p>
+		<img src="image/majorblue.png" alt="Major III Bluetooth" style="max-width: 150px; margin-left: 35px;"> <br>
+		<a class="button" href="" >Add to cart</a>
+	</div>
+	<div class="box-6">
+		<h4>MID ANC</h4>
+		<p>$279</p>
+		<img src="image/anc.png" alt="ANC headphone" style="max-width: 150px; margin-left: 35px;"> <br>
+		<a class="button" href="" >Add to cart</a>
+	</div>
+	<div class="box-7">
+		<h4>Action II Bluetooth</h4>
+		<p>$249</p>
+		<img src="image/action.png"  alt="Action II Speaker"style="max-width: 150px; margin-left: 35px;"> <br>
+		<a class="button" href="" >Add to cart</a>
+	</div>
+	<div class="box-8">
+		<h4>Kilburn II</h4>
+		<p>$249</p>
+		<img src="image/kilburn.png" alt="Kilburn Speaker" style="max-width: 150px; margin-left: 35px;"> <br>
+		<a class="button" href="" >Add to cart</a>
+	</div>
+	<div class="box-9">
+		<h4>Stanmore II Voice</h4>
+		<p>$399</p>
+		<img src="image/stanmore.png" alt="Stanmore Speaker"style="max-width: 150px; margin-left: 35px;"> <br>
+		<a class="button" href="" >Add to cart</a>
+	</div>
+	<div class="box-10">
+		<h4>Ear Cushion</h4>
+		<p>$10</p>
+		<img src="image/cushion.png" alt="Major III Ear Cushion"style="max-width: 150px; margin-left: 35px;"> <br>
+		<a class="button" href="" >Add to cart</a>
+	</div>
+	<div class="box-11">
+		<h4>Audio Cable</h4>
+		<p>$10</p>
+		<img src="image/audiocab.png" alt="Audio Cable"style="max-width: 150px; margin-left: 35px;"> <br>
+		<a class="button" href="" >Add to cart</a>
+	</div>
+	<div class="box-12">
+		<h4>Speaker Cable</h4>
+		<p>$25</p>
+		<img src="image/speakercab.png" alt="Speaker Cable"style="max-width: 150px; margin-left: 35px;"> <br>
+		<a class="button" href="" >Add to cart</a>
+	</div>
+
+</div>
+
+	<!-- Trigger/Open The Modal -->
+		<button id="myBtn" class="fix-me button">My Cart</button>
+
+	<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+  	<!-- Modal content -->
+  			<div class="modal-content">
+    			<span class="close">&times;</span>
+    			<p>MY SHOPPING CART</p>
+    			<P>ITEMS</P>
+  			</div>
+
+		</div>
+
+<script src="script.js"></script>
+
+</body>
+
+
+</html>

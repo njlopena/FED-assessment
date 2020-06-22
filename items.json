@@ -1,0 +1,76 @@
+{
+    "items": [
+        {
+            "product": "Item1",
+            "description": "Minor II Earphones",
+            "price": "129",
+            "poster": "image/minor.png"
+        },
+        {
+            "product": "Item2",
+            "description": "Mode Earphones",
+            "price": "59",
+            "poster": "image/mode.png"
+        },
+        {
+            "product": "Item3",
+            "description": "Monitor Bluetooth Headphones",
+            "price": "249",
+            "poster": "image/monitor.png"
+        },
+        {
+            "product": "Item4",
+            "description": "Major III Headphones",
+            "price": "79",
+            "poster": "image/major.png"
+        },
+        {
+            "product": "Item5",
+            "description": "Major III Bluetooth Headphones",
+            "price": "149",
+            "poster": "image/majorblue.png"
+        },
+        {
+            "product": "Item6",
+            "description": "MID ANC Headphones",
+            "price": "279",
+            "poster": "image/anc.png"
+        },
+        {
+            "product": "Item7",
+            "description": "Action II Bluetooth Speaker",
+            "price": "249",
+            "poster": "image/action.png"
+        },
+        {
+            "product": "Item8",
+            "description": "Kilburn II Speaker",
+            "price": "249",
+            "poster": "image/kilburn.png"
+        },
+        {
+            "product": "Item9",
+            "description": "Stanmore II Voice Speaker",
+            "price": "399",
+            "poster": "image/stanmore.png"
+        },
+        {
+            "product": "Item10",
+            "description": "Major III Ear Cushion",
+            "price": "10",
+            "poster": "image/cushion.png"
+        },
+        {
+            "product": "Item11",
+            "description": "Major III Audio Cable",
+            "price": "10",
+            "poster": "image/audio.png"
+        },
+        {
+            "product": "Item12",
+            "description": "Speaker Audio Cable",
+            "price": "25",
+            "poster": "image/speakercab.png"
+        }
+    ]
+} 
